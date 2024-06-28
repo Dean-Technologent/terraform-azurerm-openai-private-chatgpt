@@ -4,7 +4,7 @@
 ### 01 common + Resource Group ###
 variable "location" {
   type        = string
-  default     = "eastus"
+  default     = "uksouth"
   description = "Azure region where resources will be hosted."
 }
 
