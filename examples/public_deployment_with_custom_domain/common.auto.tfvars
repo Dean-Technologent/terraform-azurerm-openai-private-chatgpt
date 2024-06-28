@@ -1,6 +1,6 @@
 ### 01 Common Variables + RG ###
 resource_group_name = "Private-ChatGPT-OpenAI-LibreChat-Example"
-location            = "SwedenCentral"
+location            = "eastus"
 tags = {
   Terraform   = "True"
   Description = "Private ChatGPT hosted on Azure OpenAI (Librechat)"

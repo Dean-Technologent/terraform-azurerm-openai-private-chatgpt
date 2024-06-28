@@ -5,8 +5,8 @@ resource "azurerm_cosmosdb_account" "az_openai_mongodb" {
   location                  = var.location
   offer_type                = var.cosmosdb_offer_type
   kind                      = var.cosmosdb_kind
-  enable_automatic_failover = var.cosmosdb_automatic_failover
-  enable_free_tier          = var.use_cosmosdb_free_tier
+  #enable_automatic_failover = var.cosmosdb_automatic_failover
+  #enable_free_tier          = var.use_cosmosdb_free_tier
   tags                      = var.tags
 
   consistency_policy {

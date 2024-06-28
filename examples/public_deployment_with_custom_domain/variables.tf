@@ -1,7 +1,7 @@
 ### 01 common + RG ###
 variable "location" {
   type        = string
-  default     = "uksouth"
+  default     = "eastus"
   description = "Azure region where resources will be hosted."
 }
 

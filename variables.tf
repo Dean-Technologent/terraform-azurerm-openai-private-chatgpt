@@ -4,7 +4,7 @@
 ### 01 common + Resource Group ###
 variable "location" {
   type        = string
-  default     = "uksouth"
+  default     = "eastus"
   description = "Azure region where resources will be hosted."
 }
 
@@ -16,6 +16,7 @@ variable "tags" {
 
 variable "resource_group_name" {
   type        = string
+  default     = "techno-test-dean"
   description = "Name of the resource group to create the OpenAI service / or where an existing service is hosted."
   nullable    = false
 }
